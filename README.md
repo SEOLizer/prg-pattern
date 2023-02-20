@@ -15,6 +15,17 @@ This library based on jQuery.
 - prgs.js - File with javascript- functions to handle the clicks
 - example.html - Example with static links
 
+## Functions
+
+### createPRGTag($url,$salt,$anker,$cssClasses)
+
+Parameter:
+
+- $url -
+- $salt -
+- $anker -
+- $cssClasses -
+
 ## Use
 
 - Create a PHP-file
