@@ -21,10 +21,10 @@ This library based on jQuery.
 
 Parameter:
 
-- $url -
-- $salt -
-- $anker -
-- $cssClasses -
+- $url - URL you want to point
+- $salt - Secrete String to create a salted hashvalue
+- $anker - Anker-Text (can be include html)
+- $cssClasses - additional css class
 
 Result:
 
