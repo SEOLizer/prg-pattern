@@ -4,7 +4,7 @@
 $url = base64_decode($_POST["u"]);
 
 $hash = $_POST["h"];
-$urlhash = md5("wngmn" . $url);
+$urlhash = md5("saltvalue" . $url);
 
 if ($hash == $urlhash) {
     header("HTTP/1.1 301 Moved Permanently");

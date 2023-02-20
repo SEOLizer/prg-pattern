@@ -10,5 +10,5 @@ function createPRGString($url,$salt) {
 }
 
 function createPRGTag($url,$salt,$anker,$cssClasses) {
-    return '<span class="prglink ' . $cssClasses . '" ' . createPRGString($url,$salt) . '>' . $anker . '</span>';
+    return '<span class="prglink ' . $cssClasses . '" ' . createPRGString($url,$salt) . ' tabindex="0" onkeypress="if(event.keyCode==13)this.click()">' . $anker . '</span>';
 }
