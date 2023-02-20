@@ -1,2 +1,2 @@
 # prg-pattern
-PRG-Pattern Best Practice Example
+PHP functions to create PRG patterns (POST-Redirect-GET) to correctly send links to search engines. Compatible with the European accessibility act 2025.
