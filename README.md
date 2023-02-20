@@ -26,6 +26,10 @@ Parameter:
 - $anker -
 - $cssClasses -
 
+Result:
+
+- String with HTML (<span class="prglink ' . $cssClasses . '" ' . createPRGString($url,$salt) . '>' . $anker . '</span>)
+
 ## Use
 
 - Create a PHP-file
