@@ -17,5 +17,8 @@ This library based on jQuery.
 
 ## Use
 
+- Create a PHP-file
 - Include the library **prglib.php**
-- Create
+- Use the function **createPRGTag($url,$salt,$anker,$cssClasses)** to create new links. The function returns a PHP-String with html
+- Write the html of the link to your html-document
+- Include JQuery, prgs.css and prgs.js in your php/html-document  
