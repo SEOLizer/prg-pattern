@@ -28,7 +28,7 @@ Parameter:
 
 Result:
 
-- String with HTML (<span class="prglink ' . $cssClasses . '" ' . createPRGString($url,$salt) . '>' . $anker . '</span>)
+- String with HTML (<span class="prglink $cssClasses" data-adr="' . $base64CodedUrl . '" data-hash="' . $hashValue . '">' . $anker . '</span>)
 
 ## Use
 
