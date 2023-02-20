@@ -1,5 +1,6 @@
 <?php
 
+
 function createUrlHash($url,$salt) {
     return md5($salt . $url);
 }
