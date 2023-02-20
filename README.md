@@ -28,7 +28,7 @@ Parameter:
 
 Result:
 
-- String with HTML (`<span class="prglink $cssClasses" data-adr="' . $base64CodedUrl . '" data-hash="' . $hashValue . '">' . $anker . '</span>`)
+- String with HTML (`<span class="prglink $cssClasses" tabindex="0" onkeypress="if(event.keyCode==13)this.click()" data-adr="' . $base64CodedUrl . '" data-hash="' . $hashValue . '">' . $anker . '</span>`)
 
 ## Use
 
